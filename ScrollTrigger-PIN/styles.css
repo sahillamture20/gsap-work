@@ -10,26 +10,3 @@ html, body {
     background-color: #111;
     color: antiquewhite;
 }
-
-nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-}
-
-li {
-    margin-right: 20px;
-}
-
-li:hover {
-    text-decoration: underline;
-    text-underline-offset: 4px;
-    cursor: pointer;
-}
